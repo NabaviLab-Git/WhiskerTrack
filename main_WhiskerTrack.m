@@ -17,7 +17,7 @@ WT.WriteVideoFlag = 0;   % save the real time analysis as a .mp4 video
 WT.SaveResultFlag = 0;
 %--------------------------------------------------------------------------
 % if you want to smooth the results (just for plot final figures)
-WT.PlotFiltLength = 1;   % integer number ("1" for no smooting)
+WT.PlotFiltLength = 10;  % integer number ("1" for no smooting)
 %--------------------------------------------------------------------------
 % if you have an optical stimulation in your video
 WT.LightStimFlag  = 0;   % "0" or "1"
